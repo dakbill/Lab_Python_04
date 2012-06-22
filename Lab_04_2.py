@@ -32,6 +32,7 @@ for stock in in_stock:
 ###############################################
 print "#############################################"
 tup=()
-for product in in_stock:
-    tup+=tuple(product)
+tup+=tuple(in_stock)
+print "We always have in stock:"
 print tup
+

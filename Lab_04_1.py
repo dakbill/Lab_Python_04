@@ -16,9 +16,9 @@ for good in groceries:
     out+=", "+good
 print out
 print "*********************************************************"
-out="Sorted list is "
+#out="Sorted list is "
 groceries.sort()
-for good in groceries:
-    out+=", "+good
-print out
+for item in groceries:
+    s=list(item)
+    print 'For '+item+' go to'+str(s[0:1])
 print "*********************************************************"
