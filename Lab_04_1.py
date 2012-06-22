@@ -19,6 +19,5 @@ print "*********************************************************"
 #out="Sorted list is "
 groceries.sort()
 for item in groceries:
-    s=list(item)
-    print 'For '+item+' go to'+str(s[0:1])
+    print 'For '+item+' go to '+item[0:1]
 print "*********************************************************"
